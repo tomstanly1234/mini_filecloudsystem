@@ -479,8 +479,6 @@ static void print_help(void)
 "  upload <local> [remote_name]      Upload a file\n"
 "  download <remote> [local_path]    Download a file\n"
 "  delete <filename>                 Delete a file (move to trash)\n"
-"  trash                             List files in trash\n"
-"  restore <filename>                Restore from trash\n"
 "  list                              List files with real-time lock status\n"
 "  search <query>                    Search files by name\n"
 "  share <file> <user> <perm>        Share: perm = read | write | revoke\n"

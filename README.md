@@ -1,4 +1,4 @@
-# Mini Cloud Drive — C Implementation
+# Mini Cloud Drive — C Project
 ### EGC 301P / Operating Systems Lab Mini Project
 
 ---

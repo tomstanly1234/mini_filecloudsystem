@@ -1,0 +1,100 @@
+[2026-04-28 18:14:47] LOGIN  user=admin        role=admin
+[2026-04-28 18:15:12] UPLOAD user=admin        file=sample1.txt          v1
+[2026-04-28 18:15:22] UPLOAD user=admin        file=sample1.txt          v2
+[2026-04-28 18:15:43] UPLOAD user=admin        file=sample2.txt          v1
+[2026-04-28 18:16:00] LOGOUT user=admin
+[2026-04-28 18:16:07] LOGIN  user=admin        role=admin
+[2026-04-28 18:16:36] LOGOUT user=admin
+[2026-04-28 18:16:41] LOGIN  user=tom          role=user
+[2026-04-28 18:16:54] UPLOAD user=tom          file=sample1.txt          v3
+[2026-04-28 18:16:59] DELETE user=tom          file=sample1.txt
+[2026-04-28 18:17:26] UPLOAD user=tom          file=sample1.txt          v2
+[2026-04-28 18:18:21] DELETE user=tom          file=sample1.txt
+[2026-04-28 18:19:22] LOGOUT user=tom
+[2026-04-28 18:19:28] LOGIN  user=admin        role=admin
+[2026-04-28 18:19:28] LOGOUT user=admin
+[2026-04-28 18:19:28] LOGIN  user=admin        role=admin
+[2026-04-28 18:19:28] LOGOUT user=admin
+[2026-04-28 18:19:28] LOGIN  user=admin        role=admin
+[2026-04-28 18:19:28] UPLOAD user=admin        file=hello.txt            v1
+[2026-04-28 18:19:29] UPLOAD user=admin        file=data.json            v1
+[2026-04-28 18:19:29] LOGOUT user=admin
+[2026-04-28 18:19:29] LOGIN  user=bob          role=guest
+[2026-04-28 18:19:29] LOGOUT user=bob
+[2026-04-28 18:19:29] LOGIN  user=bob          role=guest
+[2026-04-28 18:19:29] DWNLD  user=bob          file=hello.txt
+[2026-04-28 18:19:29] LOGOUT user=bob
+[2026-04-28 18:19:30] LOGIN  user=admin        role=admin
+[2026-04-28 18:19:30] DELETE user=admin        file=hello.txt
+[2026-04-28 18:19:30] LOGOUT user=admin
+[2026-04-28 18:19:30] LOGIN  user=admin        role=admin
+[2026-04-28 18:19:30] UPLOAD user=admin        file=report_jan.txt       v1
+[2026-04-28 18:19:30] UPLOAD user=admin        file=report_feb.txt       v1
+[2026-04-28 18:19:31] UPLOAD user=admin        file=notes.txt            v1
+[2026-04-28 18:19:31] LOGOUT user=admin
+[2026-04-28 18:19:31] LOGIN  user=admin        role=admin
+[2026-04-28 18:19:31] LOGOUT user=admin
+[2026-04-28 18:19:31] LOGIN  user=admin        role=admin
+[2026-04-28 18:19:31] LOGOUT user=admin
+[2026-04-28 21:35:45] LOGIN  user=admin        role=admin
+[2026-04-28 21:35:45] LOGOUT user=admin
+[2026-04-28 21:35:45] LOGIN  user=admin        role=admin
+[2026-04-28 21:35:45] LOGOUT user=admin
+[2026-04-28 21:35:45] LOGIN  user=admin        role=admin
+[2026-04-28 21:35:45] UPLOAD user=admin        file=hello.txt            v1
+[2026-04-28 21:35:46] UPLOAD user=admin        file=data.json            v2
+[2026-04-28 21:35:46] LOGOUT user=admin
+[2026-04-28 21:35:46] LOGIN  user=bob          role=guest
+[2026-04-28 21:35:46] LOGOUT user=bob
+[2026-04-28 21:35:46] LOGIN  user=bob          role=guest
+[2026-04-28 21:35:46] DWNLD  user=bob          file=hello.txt
+[2026-04-28 21:35:46] LOGOUT user=bob
+[2026-04-28 21:35:47] LOGIN  user=admin        role=admin
+[2026-04-28 21:35:47] DELETE user=admin        file=hello.txt
+[2026-04-28 21:35:47] LOGOUT user=admin
+[2026-04-28 21:35:47] LOGIN  user=admin        role=admin
+[2026-04-28 21:35:47] UPLOAD user=admin        file=report_jan.txt       v2
+[2026-04-28 21:35:47] UPLOAD user=admin        file=report_feb.txt       v2
+[2026-04-28 21:35:47] UPLOAD user=admin        file=notes.txt            v2
+[2026-04-28 21:35:47] LOGOUT user=admin
+[2026-04-28 21:35:48] LOGIN  user=admin        role=admin
+[2026-04-28 21:35:48] LOGOUT user=admin
+[2026-04-28 21:35:48] LOGIN  user=admin        role=admin
+[2026-04-28 21:35:48] LOGOUT user=admin
+[2026-04-28 21:36:44] LOGIN  user=admin        role=admin
+[2026-04-28 21:37:01] LOGOUT user=admin
+[2026-04-28 21:37:05] LOGIN  user=tom          role=user
+[2026-04-28 21:37:56] UPLOAD user=tom          file=sample1.txt          v1
+[2026-04-28 21:38:02] UPLOAD user=tom          file=sample1.txt          v2
+[2026-04-28 21:38:18] DELETE user=tom          file=sample1.txt
+[2026-04-28 21:38:32] UPLOAD user=tom          file=sample1.txt          v1
+[2026-04-28 21:40:47] LOGOUT user=tom
+[2026-04-28 21:40:53] LOGIN  user=rom          role=user
+[2026-04-28 21:41:02] UPLOAD user=rom          file=sample1.txt          v2
+[2026-04-28 21:41:31] LOGOUT user=rom
+[2026-04-28 21:41:35] LOGIN  user=admin        role=admin
+[2026-04-28 21:42:00] LOGOUT user=admin
+[2026-04-28 21:42:06] LOGIN  user=tom          role=user
+[2026-04-28 21:42:53] LOGOUT user=tom
+[2026-04-28 21:42:57] LOGIN  user=rom          role=user
+[2026-04-28 21:44:50] DELETE user=rom          file=sample1.txt
+[2026-04-28 21:47:33] LOGOUT user=rom
+[2026-04-28 21:48:26] LOGIN  user=tom          role=user
+[2026-04-28 21:48:36] UPLOAD user=tom          file=sample1.txt          v1
+[2026-04-28 21:49:07] LOGOUT user=tom
+[2026-04-28 21:49:13] LOGIN  user=rom          role=user
+[2026-04-28 21:50:36] LOGOUT user=rom
+[2026-04-28 21:50:44] LOGIN  user=admin        role=admin
+[2026-04-28 21:52:07] LOGOUT user=admin
+[2026-04-28 21:53:40] LOGIN  user=tom          role=user
+[2026-04-28 21:54:27] LOGOUT user=tom
+[2026-04-28 21:54:31] LOGIN  user=admin        role=admin
+[2026-04-28 21:55:15] LOGOUT user=admin
+[2026-04-28 21:55:20] LOGIN  user=tom          role=user
+[2026-04-28 21:55:29] UPLOAD user=tom          file=sample3.txt          v1
+[2026-04-28 21:56:18] LOGOUT user=tom
+[2026-04-28 21:56:21] LOGIN  user=rom          role=user
+[2026-04-28 21:56:29] UPLOAD user=rom          file=sample3.txt          v2
+[2026-04-28 21:56:51] LOGOUT user=rom
+[2026-04-28 21:56:55] LOGIN  user=tom          role=user
+[2026-04-28 21:57:00] DELETE user=tom          file=sample1.txt
